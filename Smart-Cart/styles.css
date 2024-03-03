@@ -6,7 +6,7 @@ body {
     margin: 0;
     background-color: #F28482;
     font-family: Montserrat;
-    display: flex;
+    padding: 30px;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
@@ -27,11 +27,15 @@ nav ul{
     gap: 30px;
 }
 
-nav ul li{
+nav ul li {
     list-style: none;
     font-size: larger;
     font-weight: 600;
     color: #F28482;
+}
+nav ul li:hover{
+    color: #F6BD60;
+    cursor: pointer;
 }
 nav a {
     float: left;
@@ -43,18 +47,24 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #ddd;
+    background-color: #F6BD60;
     color: black;
 }
 
+#searchbtn {
+    background-color: transparent;
+    color: #F28482;
+    outline: none;
+    border: none;
+}
 .search-container {
     background-color: #F5CAC3;
     float: left;
     border-radius: 50px;
 }
 
-input[type=text] {
-    padding: 6px;
+#search{
+    padding: 8px;
     margin-top: 8px;
     margin-bottom: 8px;
     margin-left: 10px;
@@ -63,17 +73,10 @@ input[type=text] {
     background: transparent;
     outline: none;
 }
-
-input ::placeholder{
-    color: #ddd;
-}
-
 .search-container button {
     float: right;
-    padding: 6px 10px;
-    margin-top: 8px;
-    margin-right: 16px;
-    margin-bottom: 8px;
+    margin-top: 15px;
+    margin-right: 8px;
     background: transparent;
     font-size: 17px;
     border: none;
@@ -82,11 +85,12 @@ input ::placeholder{
 
 .account-options {
     float: right;
+    display: flex;
 }
 
 .account-options a {
-    padding: 14px 20px;
-    background-color: #84A59D;
+    padding: 10px 15px;
+    background-color: #F28482;
     margin-right: 10px;
     border-radius: 30px;
     font-weight: 500;
@@ -98,11 +102,13 @@ input ::placeholder{
     width: 90%;
     background-color: #F7EDE2;
     border-radius: 15px;
+    padding-top: 5px;
+    padding-bottom: 10px;
 }
 
 #hero{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     height: calc(100% - 20vh);
 }
@@ -176,8 +182,8 @@ input ::placeholder{
 }
 
 #rightportion figure{
-    width: 420px;
-    height: 420px;
+    width: 400px;
+    height: 400px;
     object-fit: cover;
 }
 
@@ -188,7 +194,41 @@ input ::placeholder{
 }
 
 #logo{
-    height: 60px;
-    width: 60px;
+    margin-top: 8px;
+    height: 100px;
+    width: 100px;
     border-radius: 50%;
+
+}
+
+footer{
+    background-color: #F7EDE2;
+    color:#F28482;
+    display: flex;
+    border-radius: 20px;
+    max-width: 90%;
+    margin-inline: 70px;
+    margin-block: 30px;
+    padding: 25px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+footer .box{
+    display: grid;
+    gap: 25px;
+}
+
+footer .box a,#lan,p,i{
+    color: black;
+    text-decoration: none;
+}
+
+footer .box #lan{
+    padding: 5px;
+}
+footer .icons{
+    display: flex;
+    gap: 10px;
+    padding-block: 8px;
 }

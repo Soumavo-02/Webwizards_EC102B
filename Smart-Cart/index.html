@@ -1,117 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shopify</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Shopify</title>
+        <link rel="stylesheet" href="styles.css">
+        <link
+            href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+            rel="stylesheet" />
+    </head>
 
-<body>
-    <div class="child">
-        <nav>
-            <div>
-                <a href="index.html"><img id="logo" src="logo.png" alt="logo"></a>
-            </div>
-            <ul>
-                <li>Home</li>
-                <li>Product</li>
-                <li>About</li>
-                <li>Contact</li>
-            </ul>
-             <div class="search-container">
-                <form action="/">
-                    <input type="text" placeholder="Search" name="search" id="search">
-                    <button type="submit" id="searchbtn">
-                        <i class="fa-solid fa-magnifying-glass"></i>
+    <body>
+        <div class="child">
+            <nav>
+                <div>
+                    <a href="index.html"><img id="logo" src="logo.png"
+                            alt="logo"></a>
+                </div>
+                <ul>
+                    <li>Home</li>
+                    <li>Product</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                </ul>
+                <div class="search-container">
+                    <form action="/">
+                        <input type="text" placeholder="Search" name="search"
+                            id="search">
+                        <button type="submit" id="searchbtn">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </form>
+                </div>
+                <div class="account-options">
+                    <a href="register.html">Login</a>
+                    <a href="app.html"><i class="ri-download-2-line"></i>Download App</a>
+                </div>
+            </nav>
+            <div id="hero">
+                <div id="leftportion">
+                    <span id="title">Shopify</span>
+                    <span id="text">Shopping Redefined</span>
+                    <div id="choose-card">
+                        <span>Choose Your</span>
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                height="16" fill="#2a4e45"
+                                class="bi bi-chevron-down" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708" />
+                            </svg>
+                            <span>2</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                height="16" fill="#2a4e45"
+                                class="bi bi-chevron-up" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708z" />
+                            </svg>
+                        </div>
+                    </div>
+                    <button>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="22"
+                            height="22" fill="#F7EDE2" class="bi bi-cart3"
+                            viewBox="0 0 16 16">
+                            <path
+                                d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l.84 4.479 9.144-.459L13.89 4zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"
+                                stroke="#F7EDE2" stroke-width="1" />
+                        </svg>
+                        Buy Now
                     </button>
-                </form>
+                </div>
+                <div id="rightportion">
+                    <figure>
+                        <img
+                            src="vecteezy_isometric-illustration-concept-online-shopping-e-commerce_5638065_135/vecteezy_isometric-illustration-concept-online-shopping-e-commerce_5638065.jpg"
+                            alt>
+                    </figure>
+                </div>
             </div>
-            <div class="account-options">
-                <a href="register.html">Login</a>
-                <a href="register.html">Register</a>
+        </div>
+        <footer>
+            <div class="box">
+                <a href>FAQ</a>
+                <a href>investor relation</a>
+                <a href>speed test</a>
+                <a href>privacy</a>
+                <select name="lang" id="lan" class="lang-sel">
+                    <option value="english"> English </option>
+                    <option value="Hindi"> Hindi </option>
+                </select>
+                <p>Shopify</p>
             </div>
-        </nav>
-        <div id="hero">
-            <div id="leftportion">
-                <span id="title">Shopify</span>
-                <span id="text">Shopping Redefined</span>
-                <div id="choose-card">
-                    <span>Choose Your</span>
-                    <div>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#2a4e45"
-                            class="bi bi-chevron-down" viewBox="0 0 16 16">
-                            <path fill-rule="evenodd"
-                                d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708" />
-                        </svg>
-                        <span>2</span>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#2a4e45"
-                            class="bi bi-chevron-up" viewBox="0 0 16 16">
-                            <path fill-rule="evenodd"
-                                d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708z" />
-                        </svg>
+            <div class="box">
+                <a href>Help Center</a>
+                <a href>Jobs</a>
+                <a href>Cookie Preferences</a>
+                <a href>Legal Notices</a>
+            </div>
+            <div class="box">
+                <p>Group partners</p>
+                <a href>Myntra</a>
+                <a href>Shopify Wholesale</a>
+                <a href>Cleartip</a>
+                <a href>Shopsy</a>
+            </div>
+            <div class="box">
+                <a href>About</a>
+                <a href>Terms of Use</a>
+                <a href>Contact Us</a>
+                <div class="social">
+                    <p>social:</p>
+                    <div class="icons">
+                        <i
+                            class="social-icons fa-brands fa-facebook-f fa-xl"></i>
+                        <i class="fa-brands fa-x-twitter fa-xl"></i>
+                        <i class="social-icons fa-solid fa-envelope fa-xl"></i>
+                        <i class="fa-brands fa-instagram fa-xl"></i>
                     </div>
                 </div>
-                <button>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="#F7EDE2" class="bi bi-cart3"
-                        viewBox="0 0 16 16">
-                        <path
-                            d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l.84 4.479 9.144-.459L13.89 4zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"
-                            stroke="#F7EDE2" stroke-width="1" />
-                    </svg>
-                    Buy Now
-                </button>
             </div>
-            <div id="rightportion">
-                <figure>
-                    <img src="banner.jpg" alt="">
-                </figure>
-            </div>
-        </div>
-    </div>
-    <footer>
-        <div class="box">
-            <a href="">FAQ</a>
-            <a href="">investor relation</a>
-            <a href="">speed test</a>
-            <a href="">privacy</a>
-            <select name="lang" id="lan" class="lang-sel">
-                <option value="english"> english</option>
-                <option value="Hindi">Hindi</option>
-            </select>
-            <p>Shopify</p>
-        </div>
-        <div class="box">
-            <a href="">Help Center</a>
-            <a href="">Jobs</a>
-            <a href="">Cookie Preferences</a>
-            <a href="">Legal Notices</a>
-        </div>
-        <div class="box">
-            <p>Group partners</p>
-            <a href="">Myntra</a>
-            <a href="">Shopify Wholesale</a>
-            <a href="">Cleartip</a>
-            <a href="">Shopsy</a>
-        </div>
-        <div class="box">
-            <a href="">About</a>
-            <a href="">Terms of Use</a>
-            <a href="">Contact Us</a>
-            <div class="social">
-                <p>social:</p>
-                <div class="icons">
-                    <i class="social-icons fa-brands fa-facebook-f fa-xl" ></i>
-                    <i class="fa-brands fa-x-twitter fa-xl"></i>
-                    <i class="social-icons fa-solid fa-envelope fa-xl"></i>
-                    <i class="fa-brands fa-instagram fa-xl"></i>
-                </div>
-            </div>
-        </div>
-    </footer>
-</body>
+        </footer>
+    </body>
 
-<script src="https://kit.fontawesome.com/ecb88a6b3c.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/ecb88a6b3c.js"
+        crossorigin="anonymous"></script>
 
 </html>

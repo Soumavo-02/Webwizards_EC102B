@@ -21,7 +21,7 @@ nav {
     height: 100px;
 }
 
-nav ul{
+nav ul {
     display: flex;
     flex-direction: row;
     gap: 30px;
@@ -33,10 +33,12 @@ nav ul li {
     font-weight: 600;
     color: #F28482;
 }
-nav ul li:hover{
+
+nav ul li:hover {
     color: #F6BD60;
     cursor: pointer;
 }
+
 nav a {
     float: left;
     display: block;
@@ -57,13 +59,14 @@ nav a:hover {
     outline: none;
     border: none;
 }
+
 .search-container {
     background-color: #F5CAC3;
     float: left;
     border-radius: 50px;
 }
 
-#search{
+#search {
     padding: 8px;
     margin-top: 8px;
     margin-bottom: 8px;
@@ -73,6 +76,7 @@ nav a:hover {
     background: transparent;
     outline: none;
 }
+
 .search-container button {
     float: right;
     margin-top: 15px;
@@ -96,7 +100,11 @@ nav a:hover {
     font-weight: 500;
 }
 
-.child{
+.account-options i {
+    font-size: 15px;
+}
+
+.child {
     margin: 0 auto;
     height: 90vh;
     width: 90%;
@@ -106,21 +114,21 @@ nav a:hover {
     padding-bottom: 10px;
 }
 
-#hero{
+#hero {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     height: calc(100% - 20vh);
 }
 
-#leftportion{
+#leftportion {
     display: flex;
     flex-direction: column;
     gap: 20px;
     height: 80%;
 }
 
-#leftportion button{
+#leftportion button {
     padding: 20px 30px 20px 30px;
     border: none;
     border-radius: 40px;
@@ -135,21 +143,21 @@ nav a:hover {
     cursor: pointer;
 }
 
-#title{
+#title {
     font-family: "Madimi One", sans-serif;
     font-size: 64px;
     font-weight: 800;
     color: #F28482;
 }
 
-#text{
+#text {
     text-transform: uppercase;
     font-family: "Anton", sans-serif;
     font-size: 24px;
     color: #F6BD60;
 }
 
-#choose-card{
+#choose-card {
     background-color: #84a59d6b;
     height: 70px;
     width: 200px;
@@ -157,53 +165,73 @@ nav a:hover {
     padding: 20px;
 }
 
-#choose-card span{
+#choose-card span {
     color: #84A59D;
     font-weight: 800;
 }
 
-#choose-card div{
+#choose-card div {
     display: flex;
     flex-direction: row;
     gap: 5px;
     margin-top: 10px;
 }
 
-#choose-card div svg{
+#choose-card div svg {
     padding: 10px;
     background-color: #84a59d6e;
     border-radius: 50%;
 }
 
-#choose-card div span{
+#choose-card div span {
     padding: 10px;
     background-color: #F7EDE2;
     border-radius: 30%;
 }
 
-#rightportion figure{
+#rightportion figure {
     width: 400px;
     height: 400px;
     object-fit: cover;
 }
 
-#rightportion figure img{
+#rightportion figure img {
     height: 100%;
     width: 100%;
     border-radius: 50%;
 }
 
-#logo{
-    margin-top: 8px;
+#logo {
+    margin-top: 4px;
     height: 100px;
     width: 100px;
     border-radius: 50%;
 
 }
 
-footer{
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+}
+
+.testimonial-image {
+    width: 50%;
+    padding: 40px;
+    margin: 20px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+section button {
+    border-radius: 50px;
+}
+
+footer {
     background-color: #F7EDE2;
-    color:#F28482;
+    color: #F28482;
     display: flex;
     border-radius: 20px;
     max-width: 90%;
@@ -214,20 +242,24 @@ footer{
     align-items: center;
 }
 
-footer .box{
+footer .box {
     display: grid;
     gap: 25px;
 }
 
-footer .box a,#lan,p,i{
+footer .box a,
+#lan,
+p,
+i {
     color: black;
     text-decoration: none;
 }
 
-footer .box #lan{
+footer .box #lan {
     padding: 5px;
 }
-footer .icons{
+
+footer .icons {
     display: flex;
     gap: 10px;
     padding-block: 8px;

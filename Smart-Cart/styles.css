@@ -100,7 +100,7 @@ nav a:hover {
     font-weight: 500;
 }
 
-.account-options i{
+.account-options i {
     font-size: 15px;
 }
 
@@ -202,11 +202,31 @@ nav a:hover {
 }
 
 #logo {
-    margin-top: 8px;
+    margin-top: 4px;
     height: 100px;
     width: 100px;
     border-radius: 50%;
 
+}
+
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+}
+
+.testimonial-image {
+    width: 50%;
+    padding: 40px;
+    margin: 20px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+section button {
+    border-radius: 50px;
 }
 
 footer {
